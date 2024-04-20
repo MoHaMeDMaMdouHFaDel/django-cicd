@@ -1,0 +1,11 @@
+pipline {
+    agent any
+    stages{
+        stage("setup Python Virtaul ENV"){
+            sh '''
+                chmod +x envsetup
+                ./envsetup
+            '''
+        }
+    }
+}
