@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo apt-get install nginx
 sudo cp -rf app.conf /etc/nginx/cong.d
 
 chmod 710 /var/lib/jenkins/workspace/django-cicd
